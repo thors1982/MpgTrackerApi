@@ -17,7 +17,7 @@ mkdir mpgTrackerApi
 cd mpgTrackerApi
 virtualenv venv
 . venv/bin/activate
-pip install Flask
+sudo pip install Flask
 
 #Install MongoDB
 apt-get install -y mongodb-org
